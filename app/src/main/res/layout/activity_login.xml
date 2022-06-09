@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Giriş"
+        android:textColor="@color/themeDarkColor"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/login_page_LinearLayout_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Kullanıcı Adı"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/loginPageEmailEDit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_edit_text"
+            android:drawableStart="@drawable/icon_person"
+            android:hint="e-posta adresinizi giriniz:"
+            android:inputType="textEmailAddress"
+
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="Şifre "
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/LoginPagePassEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_edit_text"
+            android:drawableStart="@drawable/icon_lock"
+            android:hint="Şifre giriniz:"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/forgot_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Şifrenizi mi Unuttunuz ?"
+            android:gravity="end"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/LoginPageSingInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_button_background"
+            android:text="@string/loginText"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_below="@id/login_page_LinearLayout_first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veya Hesap Oluşturunuz :"
+            android:textColor="#74505050"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Hesap Oluştur"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

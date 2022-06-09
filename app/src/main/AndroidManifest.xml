@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fuel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fuel">
+        <activity
+            android:name=".View.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.DetailCheapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.CheapFuelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.Admin_LpgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.Admin_DizelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.activity_admin_benzin"
+            android:exported="false" />
+        <activity
+            android:name=".View.Admin_BenzinActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDEEISUqJC-eJfNq_nvf1_P5n-qvjLh20E" />
+
+        <activity
+            android:name=".View.BenzinLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.FirstActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.LoginAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.AdminActivity">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BenzinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benzin"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BenzinButton"
+            android:id="@+id/DizelButton"
+            android:text="Dizel"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DizelButton"
+        android:id="@+id/LpgButton"
+        android:text="Lpg"/>
+
+    </RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.139" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/drawable/icon_lock.xml" value="0.114" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/drawable/icon_person.xml" value="0.114" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/drawable/login_button_background.xml" value="0.139" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/drawable/login_edit_text.xml" value="0.139" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Fuel/app/src/main/res/layout/activity_register.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_admin_benzin.xml" value="0.21" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_admin_benzin2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_admin_dizel.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_admin_lpg.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_benzin_location.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_first.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/activity_login_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelApp-master/fuelApp-master/app/src/main/res/layout/admin_scroll.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelapp/fuelapp-main/app/src/main/res/layout/activity_main.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/ASUS/Desktop/fuelapp/fuelapp-main/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Mert/Desktop/fuelapp/fuelapp/fuelapp-main/app/src/main/res/layout/activity_admin_benzin.xml" value="0.25" />
+        <entry key="..\:/Users/Mert/Desktop/fuelapp/fuelapp/fuelapp-main/app/src/main/res/layout/activity_admin_dizel.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/Mert/Desktop/fuelapp/fuelapp/fuelapp-main/app/src/main/res/layout/activity_admin_lpg.xml" value="0.2015625" />
+        <entry key="app/src/main/res/drawable/icon_email.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/icon_gass.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/icon_lock.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/icon_lock_again.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/icon_person.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/main_activity_category_background.xml" value="0.1705" />
+        <entry key="app/src/main/res/layout/activity_admin.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/activity_admin_benzin.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_admin_dizel.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_admin_lpg.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_benzin_location.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_cheap_fuel.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_detail_cheap.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_first.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/activity_login_admin.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/admin_scroll.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/cheap_fuel_recyclerview.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/station_recyclerview.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/main_option_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
